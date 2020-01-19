@@ -1,4 +1,6 @@
 .navbar{
+    height: 100%;
+    width: 100%;
     background-image: url('../assets/menu-bg.png');
     margin-left: 20px;
     margin-top: 20px;
@@ -13,6 +15,8 @@
         width: 100%;
 
         .col-3{
+            height: 100%;
+            width: 100%;
             margin: unset;
             padding: unset;
             background-color: rgba(0,0,0, 0.8);
