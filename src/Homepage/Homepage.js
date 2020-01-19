@@ -11,7 +11,7 @@ import carousel04 from '../assets/0004.jpg';
 import Navbar from '../Navbar/Navbar';
 
 function Homepage(props){
-    const [navState, setNavBar] =  useState(true);
+    const [navState, setNavBar] =  useState(null);
 
     //set window's height and width to fit the feature
     const setWindows = () => {
